@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #24272E;
+}
+
+header {
+	position: absolute;
+	background-color: white; 
+	width: 100%;
+}
+
+header h1 {
+	padding: 20px;
+	color: black;
+	font-family: Asap, sans-serif;
+	text-align: center;
+}
+
+.game-frame {
+	display: flex;
+	height: 95vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+canvas {
+	border: 3px solid #191B27;
+	border-radius: 10px;
+}
